@@ -14,7 +14,7 @@ public class annotation {
      
    @Given("^I have open the browser$")
    public void openBrowser() {
-	   System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+	   System.setProperty("webdriver.chrome.driver", "chromedriver");
       driver = new ChromeDriver();
    }
      
